@@ -194,7 +194,89 @@ export const projects = [
       "Fluid Interactive Animations",
       "Cross-Device Optimization"
     ]
-  }
+  },
+
+  {
+    id: "khanapur-grampanchayat",
+    title: "Khanapur Gram Panchayat Website",
+    subtitle: "Government Static Website with Bilingual Support",
+    category: "Government",
+    isGovernment: true,
+    featured: false,
+    tagline: "Bilingual (Marathi & English) village administration website built for a local government body.",
+    description: "Built the official static website for Khanapur Gram Panchayat, giving villagers and visitors easy access to information about the panchayat and its services. The site supports both Marathi and English so it is accessible to the local community.",
+    bullets: [
+      "Developed a complete static government website for Khanapur Gram Panchayat using React.js and JavaScript.",
+      "Implemented multi-language support (Marathi and English) so citizens can switch languages seamlessly.",
+      "Used React Icons to create a clean, intuitive, and easy-to-navigate interface for rural and first-time users.",
+      "Delivered a responsive layout that works across mobile, tablet, and desktop screens."
+    ],
+    techStack: ["React.js", "JavaScript", "React Icons", "i18n (Marathi / English)"],
+    metrics: [
+      { label: "Type", value: "Government Static Website" },
+      { label: "Languages", value: "Marathi & English" },
+      { label: "Responsiveness", value: "Mobile Ready" }
+    ],
+    highlights: [
+      "Bilingual Language Toggle",
+      "Local Government Portal",
+      "Clean, Accessible UI"
+    ]
+  },
+  {
+    id: "vedant-enterprises",
+    title: "Vedant Enterprises Website",
+    subtitle: "Corporate Static Website",
+    category: "Web Development",
+    featured: false,
+    tagline: "Modern, responsive company website presenting Vedant Enterprises' services and brand online.",
+    description: "Worked on the official static website for Vedant Enterprises, focusing on a polished, responsive user interface that presents the company's services and builds credibility with visitors.",
+    bullets: [
+      "Developed the company's static web portal using React.js and JavaScript.",
+      "Styled a modern, fully responsive interface with Tailwind CSS for a consistent look on every device.",
+      "Structured reusable components for faster page development and easier future updates."
+    ],
+    techStack: ["React.js", "JavaScript", "Tailwind CSS", "Responsive Design"],
+    liveUrl: "https://vedantit.in/",
+    metrics: [
+      { label: "Type", value: "Corporate Website" },
+      { label: "Responsiveness", value: "100% Mobile Ready" },
+      { label: "Status", value: "Live" }
+    ],
+    highlights: [
+      "Modern Responsive Design",
+      "Reusable Component Structure",
+      "Live Production Site"
+    ]
+  },
+  {
+    id: "inventory-management",
+    title: "Inventory Management System",
+    subtitle: "Role-Based Inventory & Asset Tracking Platform",
+    category: "Enterprise",
+    featured: false
+    tagline: "Role-based software for managing stock like solar equipment and laptops across Admin, Manager, and Employee roles.",
+    description: "Created an inventory management application to track and manage stock such as solar equipment, laptops, and other assets. The platform provides separate experiences and permissions for admins, managers, and employees.",
+    bullets: [
+      "Built a full-stack inventory system to manage items such as solar equipment, laptops, and other company assets.",
+      "Implemented role-based access for Admin, Manager, and Employee with protected routes and role-specific views.",
+      "Structured navigation and protected pages using React Router for a smooth multi-page experience.",
+      "Developed backend logic with Node.js to handle inventory operations and user access.",
+      "Designed a clean, responsive dashboard UI using Tailwind CSS."
+    ],
+    techStack: ["React.js", "JavaScript", "Node.js", "React Router", "Tailwind CSS"],
+    metrics: [
+      { label: "User Roles", value: "Admin, Manager, Employee" },
+      { label: "Inventory Types", value: "Solar, Laptops & More" },
+      { label: "Access Model", value: "Role-Based (RBAC)" }
+    ],
+    highlights: [
+      "Role-Based Dashboards",
+      "Multi-Category Inventory Tracking",
+      "Protected Routing"
+    ]
+  },
+
 ];
 
 export const experiences = [
@@ -266,4 +348,5 @@ export const certifications = [
     iconName: "Code2",
     description: "In-depth training in Python programming, object-oriented principles, data structures, automation scripts, and algorithmic problem solving."
   }
+
 ];
