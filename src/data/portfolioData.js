@@ -254,7 +254,7 @@ export const projects = [
     title: "Inventory Management System",
     subtitle: "Role-Based Inventory & Asset Tracking Platform",
     category: "Enterprise",
-    featured: false
+    featured: false,
     tagline: "Role-based software for managing stock like solar equipment and laptops across Admin, Manager, and Employee roles.",
     description: "Created an inventory management application to track and manage stock such as solar equipment, laptops, and other assets. The platform provides separate experiences and permissions for admins, managers, and employees.",
     bullets: [
